@@ -10,7 +10,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="win">
+    <meta name="keywords" content="win">
     
     <meta name="description" content="sadcs塞擦声擦拭擦拭的说法都是GV大部分DVD发v">
 <meta name="keywords" content="win">
@@ -38,7 +38,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <script src="/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/libs/jquery/3.5.0/jquery.min.js"></script>
     
     
         <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
@@ -58,6 +58,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 
+    
     
 
 
@@ -88,8 +89,8 @@ var _hmt = _hmt || [];
                                     <a class="main-nav-list-link" href="/">主页</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/life/">life</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/技术/">技术</a></li></ul>
-                                    
+                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/life/">life</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/技术/">技术</a></li></ul>
+                                
                                 <li class="main-nav-list-item" >
                                     <a class="main-nav-list-link" href="/about/index.html">关于</a>
                                 </li>
@@ -98,35 +99,39 @@ var _hmt = _hmt || [];
                         <nav id="sub-nav">
                             <div id="search-form-wrap">
 
-    <div class="search-form">
-        <input type="text" class="st-default-search-input search-form-input" placeholder="搜索" />
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <script type="text/javascript">
-(function(w,d,t,u,n,s,e) {w['SwiftypeObject']=n;w[n]=w[n]||function() {
-(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-_st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
 </script>
-<style>
-    .st-ui-injected-overlay-container,
-    .st-ui-injected-overlay-container *:not(select) {
-        font-family: inherit !important;
-    }
-    section.st-ui-content.st-search-results a.st-ui-result .st-ui-type-heading {
-        color: #006bde !important;
-    }
-    .st-ui-injected-overlay-container .st-ui-header input[type="text"]:focus {
-        border-bottom: 2px solid #006bde;
-    }
-    .st-ui-injected-overlay-container .st-ui-footer a.st-ui-pagination-link {
-        color: #006bde;
-    }
-    .st-ui-injected-overlay-container .st-ui-footer a.st-ui-pagination-link span.st-ui-arrow {
-        border-color: #006bde;
-    }
-</style>
+<script src="/js/insight.js"></script>
 
 </div>
                         </nav>
@@ -136,6 +141,7 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         </div>
     </div>
 </header>
+
         <div class="container">
             <div class="main-body container-inner">
                 <div class="main-body-inner">
@@ -164,13 +170,23 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         
             <div class="article-meta">
                 
-    <div class="article-date">
-        <a href="/2019/08/11/for-sus/" class="article-date">
-            <time datetime="2019-08-11T07:56:17.000Z" itemprop="datePublished">2019-08-11</time>
-        </a>
-    </div>
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/2019/08/11/for-sus/" class="article-date">
+       <time datetime="2019-08-11T07:56:17.000Z" itemprop="datePublished">2019-08-11</time>
+    </a>
+  </div>
 
-		
+
+<div class="article-date">
+  <i class="fa fa-calendar-plus-o"></i>
+  <a href="/2019/08/11/for-sus/" class="article-date">
+     <time datetime="2019-08-11T07:57:19.392Z" itemprop="dateModified">2019-08-11</time>
+  </a>
+</div>
+
+
+                
 
                 
     <div class="article-tag">
@@ -178,10 +194,20 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         <a class="tag-link" href="/tags/win/">win</a>
     </div>
 
+                
+
+                
+
             </div>
         
         
         <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
             <p>sadcs塞擦声擦拭擦拭的说法都是GV大部分DVD发v</p>
 
         </div>
@@ -190,7 +216,7 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
 
 
 
-    <a data-url="http://yoursite.com/2019/08/11/for-sus/" data-id="cjz700q2m0000p0nf964mjsi9" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/2019/08/11/for-sus/" data-id="ckfmhbnz60000z4nf4m44gnoq" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -269,7 +295,7 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         "dateModified": "2019-08-11",
         "url": "http://yoursite.com/2019/08/11/for-sus/",
         "description": "sadcs塞擦声擦拭擦拭的说法都是GV大部分DVD发v
-"
+",
         "wordCount": 1
     }
 </script>
@@ -279,8 +305,9 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
     <section id="comments">
     
         
-    <section id="isso-thread"></section>
-
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
 
     
@@ -488,8 +515,8 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
                 <h1 class="logo-wrap">
                     <a href="/" class="logo"></a>
                 </h1>
-                <p>&copy; 2019 sus</p>
-                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+                <p>&copy; 2020 sus</p>
+                
             </div>
             <div class="footer-plugins">
               
@@ -501,35 +528,23 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
     </div>
 </footer>
 
-        
+    </div>
     
-    <script data-isso="//https://hexing-sus.github.io/"
-        
-          
-                  data-isso-lang = 
-                      "zh-CN"
-              
-          
-          
-          
-          
-          
-          
-          
-                  data-isso-avatar = 
-                      "true"
-              
-          
-          
-          
-                  data-isso-vote = 
-                      "true"
-              
-          
-          
-        src="//https://hexing-sus.github.io//js/embed.min.js">
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://yoursite.com/2019/08/11/for-sus/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
     </script>
-
 
 
 
@@ -551,11 +566,14 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
     
     
 
+    
+    
+    
+
 
 
 <!-- Custom Scripts -->
 <script src="/js/main.js"></script>
 
-    </div>
 </body>
 </html>

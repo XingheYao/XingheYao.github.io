@@ -36,7 +36,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <script src="/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/libs/jquery/3.5.0/jquery.min.js"></script>
     
     
         <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
@@ -56,6 +56,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 
+    
     
 
 
@@ -86,8 +87,8 @@ var _hmt = _hmt || [];
                                     <a class="main-nav-list-link" href="/">主页</a>
                                 </li>
                             
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/life/">life</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/技术/">技术</a></li></ul>
-                                    
+                                    <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/life/">life</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/技术/">技术</a></li></ul>
+                                
                                 <li class="main-nav-list-item" >
                                     <a class="main-nav-list-link" href="/about/index.html">关于</a>
                                 </li>
@@ -96,35 +97,39 @@ var _hmt = _hmt || [];
                         <nav id="sub-nav">
                             <div id="search-form-wrap">
 
-    <div class="search-form">
-        <input type="text" class="st-default-search-input search-form-input" placeholder="搜索" />
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <script type="text/javascript">
-(function(w,d,t,u,n,s,e) {w['SwiftypeObject']=n;w[n]=w[n]||function() {
-(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-_st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
 </script>
-<style>
-    .st-ui-injected-overlay-container,
-    .st-ui-injected-overlay-container *:not(select) {
-        font-family: inherit !important;
-    }
-    section.st-ui-content.st-search-results a.st-ui-result .st-ui-type-heading {
-        color: #006bde !important;
-    }
-    .st-ui-injected-overlay-container .st-ui-header input[type="text"]:focus {
-        border-bottom: 2px solid #006bde;
-    }
-    .st-ui-injected-overlay-container .st-ui-footer a.st-ui-pagination-link {
-        color: #006bde;
-    }
-    .st-ui-injected-overlay-container .st-ui-footer a.st-ui-pagination-link span.st-ui-arrow {
-        border-color: #006bde;
-    }
-</style>
+<script src="/js/insight.js"></script>
 
 </div>
                         </nav>
@@ -134,6 +139,7 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         </div>
     </div>
 </header>
+
         <div class="container">
             <div class="main-body container-inner">
                 <div class="main-body-inner">
@@ -152,6 +158,12 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         
         
         <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
             <p>本站是基于 Hexo 搭建的静态资源博客，主要用于分享日常学习、生活及工作的一些心得总结，欢迎点击左侧订阅 rss</p>
 <p>email： <a href="mailto:978279664@qq.com" target="_blank" rel="noopener">978279664@qq.com</a></p>
 <p>GitHub ：<a href="https://github.com/hexing-sus" target="_blank" rel="noopener">https://github.com/hexing-sus</a></p>
@@ -162,7 +174,7 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
 
 
 
-    <a data-url="http://yoursite.com/about/index.html" data-id="cjz700q2w0001p0nflqpavtzz" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/about/index.html" data-id="ckfmhbnzh0001z4nfw0oisib5" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -243,7 +255,7 @@ _st('install','pxBR4s5YYzPr18psFDTy','2.0.0');
         "description": "本站是基于 Hexo 搭建的静态资源博客，主要用于分享日常学习、生活及工作的一些心得总结，欢迎点击左侧订阅 rss
 email： 978279664@qq.com
 GitHub ：https://github.com/hexing-sus
-"
+",
         "wordCount": 12
     }
 </script>
@@ -253,8 +265,9 @@ GitHub ：https://github.com/hexing-sus
     <section id="comments">
     
         
-    <section id="isso-thread"></section>
-
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
 
     
@@ -449,8 +462,8 @@ GitHub ：https://github.com/hexing-sus
                 <h1 class="logo-wrap">
                     <a href="/" class="logo"></a>
                 </h1>
-                <p>&copy; 2019 sus</p>
-                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+                <p>&copy; 2020 sus</p>
+                
             </div>
             <div class="footer-plugins">
               
@@ -462,35 +475,23 @@ GitHub ：https://github.com/hexing-sus
     </div>
 </footer>
 
-        
+    </div>
     
-    <script data-isso="//https://hexing-sus.github.io/"
-        
-          
-                  data-isso-lang = 
-                      "zh-CN"
-              
-          
-          
-          
-          
-          
-          
-          
-                  data-isso-avatar = 
-                      "true"
-              
-          
-          
-          
-                  data-isso-vote = 
-                      "true"
-              
-          
-          
-        src="//https://hexing-sus.github.io//js/embed.min.js">
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://yoursite.com/about/index.html';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
     </script>
-
 
 
 
@@ -512,11 +513,14 @@ GitHub ：https://github.com/hexing-sus
     
     
 
+    
+    
+    
+
 
 
 <!-- Custom Scripts -->
 <script src="/js/main.js"></script>
 
-    </div>
 </body>
 </html>
